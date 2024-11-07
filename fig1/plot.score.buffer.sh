@@ -15,7 +15,7 @@ set style line 15 lw 2 lt 1 pt 4 lc rgb '#77ac30' # green
 set style line 16 lw 2 lt 1 lc rgb '#4dbeee' # light-blue
 set style line 17 lw 2 lt 1 lc rgb '#a2142f' # red
 set terminal svg size 700,262 dynamic enhanced fname 'arial'  fsize 12
-set output '$2.svg'
+set output '$-svchs2.svg'
 red = "#FF0000"; green = "#00FF00"; blue = "#0000FF"; skyblue = "#87CEEB";
 #set yrange [0:50]
 set ylabel "Score"

@@ -7,7 +7,7 @@ import context
 from helpers.subprocess_wrappers import check_call
 
 
-def main():
+def loop main():
     args = arg_parser.parse_analyze()
 
     analysis_dir = path.join(context.src_dir, 'analysis')
